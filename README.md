@@ -1,4 +1,4 @@
---INSTALACION IMAGEN--
+#INSTALACION IMAGEN
 
 #Desinstalar versiones que generen conflicto en la cli 
 
@@ -9,19 +9,25 @@ https://docs.docker.com/engine/install/ubuntu/
 
  #instala git en la maquina
 
-$Actualiza repo
+**Actualiza repo**
+
 sudo apt update 
 
-$Instala git 
+**Instala git** 
+
 sudo apt install git 
 
 git --version 
 
-Haz un git clone
+**Haz un git clone**
 
-git clone 
+git clone https://github.com/rafaelbriceno2/prueba_2.git
 
- 
+**ejecuta el siguiente comando para construir la imagen.**
+
+docker build -t docker-nagios
+
+
 
 
 
