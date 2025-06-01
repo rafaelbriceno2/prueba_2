@@ -11,7 +11,7 @@ https://docs.docker.com/engine/install/ubuntu/
 
 **Actualiza repo**
 
-sudo apt update 
+´sudo apt update´
 
 **Instala git** 
 
